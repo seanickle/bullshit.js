@@ -4,7 +4,7 @@ import bullshitTerms from './terms';
 function revealBullshit({text}) {
     const c = text.charAt(0);
     const last = text.length - 1;
-    let bullshit = `${c === c.toUpperCase() ? 'B' : 'b'}ullshit`;
+    let bullshit = `${c === c.toUpperCase() ? 'D' : 'd'}erpderp`;
 
     if (text.substr(last - 2) === 'ing') {
         bullshit += 'ting';
